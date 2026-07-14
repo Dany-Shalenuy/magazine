@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блендерний Сет 4 в 1 — Ексклюзивна Ціна</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="notification" id="notification">
+        <div class="notification-avatar">
+            <i class="fa-solid fa-circle-user"></i>
+        </div>
+        <div class="notification-text">
+            <span class="notification-name" id="notify-name">Анастасія</span>, м. <span id="notify-city">Дніпро</span>,<br>
+            оформила замовлення, залишилось <span class="notification-count" id="notify-count">10</span> шт.
+        </div>
+    </div>
+
+    <div class="container">
+        <header class="header-features">
+            <div class="feature-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Зручність та якість</span>
+            </div>
+            <div class="feature-item">
+                <i class="fa-solid fa-clock"></i>
+                <span>Швидка доставка</span>
+            </div>
+            <div class="feature-item">
+                <i class="fa-solid fa-credit-card"></i>
+                <span>Оплата при отриманні</span>
+            </div>
+        </header>
+
+        <main class="product-card">
+            <div class="product-image-container">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0-5IzREYmaACAhsPxo3tej9Uz_xwt0A7FcHH8ry-efw&s">
+                <div class="discount-badge">-50%<br><small>знижка</small></div>
+            </div>
+
+            <div class="price-section">
+                <div class="price-box old-price-box">
+                    <span class="price-label">Звичайна ціна:</span>
+                    <span class="price-value old-price">1000грн</span>
+                </div>
+                <div class="price-box new-price-box">
+                    <span class="price-label">Ціна зі знижкою:</span>
+                    <span class="price-value new-price">690грн</span>
+                </div>
+            </div>
+
+            <div class="countdown-container">
+                <p class="countdown-title">ПРОПОЗИЦІЯ ДІЄ:</p>
+                <div class="timer">
+                    <div class="timer-segment">
+                        <span id="hours">00</span>
+                        <small>годин</small>
+                    </div>
+                    <div class="timer-divider">:</div>
+                    <div class="timer-segment">
+                        <span id="minutes">55</span>
+                        <small>хвилин</small>
+                    </div>
+                    <div class="timer-divider">:</div>
+                    <div class="timer-segment">
+                        <span id="seconds">03</span>
+                        <small>секунд</small>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#order-form" class="btn">Замовити зі знижкою</a>
+
+            <section class="product-details">
+                <h1 class="main-title">ВЕНТИЛЯТОР</h1>
+                
+                <div class="detail-block">
+                    <h2 class="section-title">Рівень шуму 35 дБ</h2>
+                    <p class="product-description">Універсальний прилад 2в1</p>
+                </div>
+
+                <div class="detail-block">
+                    <h2 class="section-title">Потужність</h2>
+                    <p class="product-description">ТРИ РЕЖИМА РОБОТИ</p>
+                </div>
+
+                <h2 class="section-title">Характеристики:</h2>
+                <ul class="specs-list">
+                    <li><i class="fa-solid fa-square-caret-right"></i> <span><strong>Виробник:</strong> Італія</span></li>
+                    <li><i class="fa-solid fa-square-caret-right"></i> <span><strong>Матеріал:</strong>ABS пластик</span></li>
+                    <li><i class="fa-solid fa-square-caret-right"></i> <span><strong>Резервуара</strong>:</strong> 200 мл</span></li>
+                    <li><i class="fa-solid fa-square-caret-right"></i> <span><strong>Розмір:</strong>14,6 х 8,9 х 37,5 см</span></li>
+                    <li><i class="fa-solid fa-square-caret-right"></i> <span><strong>Захист від перегріву:</strong> Є</span></li>
+                    <li><i class="fa-solid fa-square-caret-right"></i> <span><strong>Довжина кабелю живлення:</strong> 1.2 м</span></li>
+                </ul>
+            </section>
+
+            <section class="how-to-order">
+                <h2 class="section-title">Як замовити?</h2>
+                <div class="steps-grid">
+                    <div class="step-card">
+                        <i class="fa-solid fa-file-lines"></i>
+                        <h4>ЗАЯВКА</h4>
+                        <p>Залишайте заявку на нашому сайті</p>
+                    </div>
+                    <div class="step-card">
+                        <i class="fa-solid fa-headset"></i>
+                        <h4>ДЗВІНОК</h4>
+                        <p>Менеджер уточнює деталі</p>
+                    </div>
+                    <div class="step-card">
+                        <i class="fa-solid fa-box-open"></i>
+                        <h4>ВІДПРАВКА</h4>
+                        <p>Новою Поштою протягом 1-3 днів</p>
+                    </div>
+                    <div class="step-card">
+                        <i class="fa-solid fa-money-bill-wave"></i>
+                        <h4>ОТРИМАННЯ</h4>
+                        <p>Оплачуйте при отриманні на пошті</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="order-form" class="form-section">
+                <h2 class="section-title">Оформлення замовлення</h2>
+                <form id="tg-form">
+                    <div class="input-group">
+                        <i class="fa-solid fa-user input-icon"></i>
+                        <input type="text" id="name" placeholder="Ваше ім'я" required>
+                    </div>
+                    <div class="input-group">
+                        <i class="fa-solid fa-phone input-icon"></i>
+                        <input type="tel" id="phone" placeholder="Ваш телефон" required>
+                    </div>
+                    <div class="privacy-policy">
+                        <input type="checkbox" id="privacy" checked required>
+                        <label for="privacy">Я погоджуюся з політикою конфіденційності</label>
+                    </div>
+                    <button type="submit" class="btn">Замовити зараз</button>
+                </form>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <p>© 2017-2026 ТОВ "КУКВЕЙ"</p>
+            <p>Україна, місто Київ, вулиця Вадима Гетьмана, 1Б</p>
+            <p>Телефон: +38 (097) 787-17-27</p>
+            <p><a href="#">Політика конфіденційності</a> | <a href="#">Угода користувача</a></p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
